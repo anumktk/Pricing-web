@@ -11,3 +11,301 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(229, 229, 229, 1);
+}
+
+.left_semi-circle {
+  width: 100px;
+  height: 200px;
+  border-radius: 0 160px 160px 0;
+  /* top-left | top-right | bottom-right | bottom-left */
+  background: rgba(143, 209, 215, 0.44);
+}
+
+.upward_semi-circle {
+  width: 190px;
+  height: 90px;
+  border-radius: 0 0 160px 160px;
+  /* top-left | top-right | bottom-right | bottom-left */
+  background: rgba(143, 209, 215, 0.44);
+}
+
+.right_semi-circle {
+  width: 160px;
+  height: 320px;
+  border-radius: 160px 0 0 160px;
+  /* top-left | top-right | bottom-right | bottom-left */
+  background: rgba(143, 209, 215, 0.44);
+}
+
+.mainImage {
+  width: 350px;
+  height: 250px;
+  margin-top: 126px;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Payment_backgroud_1 {
+  width: 100vw;
+  height: 150vh;
+  background-color: rgba(229, 229, 229, 1);
+}
+
+.Payment_background {
+  Width: 100vw;
+  Height: 420px;
+  background-color: rgba(80, 194, 201, 1)
+}
+
+.left_semi-circle_pay {
+  width: 100px;
+  height: 200px;
+  border-radius: 0 160px 160px 0;
+  /* top-left | top-right | bottom-right | bottom-left */
+  background: rgba(215, 249, 245, 0.44);
+}
+
+.upward_semi-circle_pay {
+  width: 190px;
+  height: 90px;
+  border-radius: 0 0 160px 160px;
+  /* top-left | top-right | bottom-right | bottom-left */
+  background: rgba(215, 249, 245, 0.44);
+}
+
+.PaymentImage {
+  width: 348px;
+  height: 209px;
+  margin-top: 43px;
+
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sm-flex {
+  flex: column;
+  align-items: center;
+}
+
+/* responsive design for cellphnes */
+@media (min-width: 320px) and (max-width: 640px) {
+
+  /* Styles for screens between 320px and 640px */
+  /* responsive styles for Home screen*/
+  .background {
+    height: 100vh;
+    height: fit-content;
+    /* Adjust background height as needed */
+  }
+
+  .left_semi-circle {
+    width: 60px;
+    /* Adjust as needed */
+    height: 120px;
+    /* Adjust as needed */
+    border-radius: 0 160px 160px 0;
+    /* top-left | top-right | bottom-right | bottom-left */
+    background: rgba(143, 209, 215, 0.44);
+
+  }
+
+  .upward_semi-circle {
+    width: 120px;
+    /* Adjust as needed */
+    height: 60px;
+    /* Adjust as needed */
+    border-radius: 0 0 160px 160px;
+    /* top-left | top-right | bottom-right | bottom-left */
+    background: rgba(143, 209, 215, 0.44);
+  }
+
+  .mainImage {
+    width: 60%;
+    /* Adjust as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-top: 187px;
+    /* Adjust as needed */
+    margin-bottom: 10px;
+
+  }
+
+  .font_plans {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+  }
+
+  /* Responsive styles for Payment screen*/
+  .Payment_backgroud_1 {
+    width: 100vw;
+    height: fit-content;
+    background-color: rgba(229, 229, 229, 1);
+  }
+
+  .Payment_background {
+    Width: 100vw;
+    Height: 350px;
+    background-color: rgba(80, 194, 201, 1);
+  }
+
+  .PaymentImage {
+    width: 101px;
+    /* Adjust as needed */
+    height: 71px;
+    /* Maintain aspect ratio */
+    margin-top: 97px;
+    /* Adjust as needed */
+    margin-right: 100px;
+  }
+
+  .left_semi-circle_pay {
+    width: 60px;
+    /* Adjust as needed */
+    height: 120px;
+    /* Adjust as needed */
+    border-radius: 0 160px 160px 0;
+    /* top-left | top-right | bottom-right | bottom-left */
+    background: rgba(215, 249, 245, 0.44);
+  }
+
+  .upward_semi-circle_pay {
+    width: 120px;
+    /* Adjust as needed */
+    height: 60px;
+    /* Adjust as needed */
+    border-radius: 0 0 160px 160px;
+    /* top-left | top-right | bottom-right | bottom-left */
+    background: rgba(215, 249, 245, 0.44);
+  }
+
+  .poppins {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .text-4xl {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    /* Add margin to the bottom */
+    line-height: 1.5;
+    /* Increase line height for better readability */
+    font-size: 10px;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+  }
+
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .sm-flex {
+    flex-direction: row;
+  }
+}
+
+/* Define breakpoints */
+@media (min-width: 640px) and (max-width: 767px) {
+
+  /* Styles for small screens (sm) */
+  .background {
+    height: 100vh;
+    height: fit-content;
+    /* Adjust as needed */
+  }
+
+  .left_semi-circle {
+    width: 150px;
+    /* Adjust as needed */
+    height: 250px;
+    /* Adjust as needed */
+    border-radius: 0 160px 160px 0;
+    /* top-left | top-right | bottom-right | bottom-left */
+    background: rgba(143, 209, 215, 0.44);
+
+  }
+
+  .upward_semi-circle {
+    width: 250px;
+    /* Adjust as needed */
+    height: 150px;
+    /* Adjust as needed */
+    border-radius: 0 0 160px 160px;
+    /* top-left | top-right | bottom-right | bottom-left */
+    background: rgba(143, 209, 215, 0.44);
+  }
+
+  .mainImage {
+    width: 40%;
+    /* Adjust as needed */
+    max-width: 40%;
+    /* Limit the maximum width */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-top: 187px;
+    /* Adjust as needed */
+
+  }
+
+  .text-4xl,
+  .text-2xl {
+    white-space: pre-line;
+    /* Allow for line breaks */
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for medium screens (md) */
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Styles for large screens (lg) */
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  /* Styles for extra large screens (xl) */
+}
+
+@media (min-width: 1536px) {
+  /* Styles for 2xl screens */
+}
